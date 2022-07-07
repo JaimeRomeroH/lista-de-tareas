@@ -1,5 +1,6 @@
 import './App.css';
 import logo from './imagenes/logo.png'
+import Tarea from './componentes/Tarea';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
        </div>
        <div className="tareas-lista-principal">
           <h1>Mis Tareas</h1>
-
+          <Tarea />
        </div>
     </div>
   );
