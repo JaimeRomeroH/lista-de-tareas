@@ -7,6 +7,10 @@ function App() {
        <div className="logo-contenedor">
           <img src={logo} className="logo" alt="logo"/>
        </div>
+       <div className="tareas-lista-principal">
+          <h1>Mis Tareas</h1>
+
+       </div>
     </div>
   );
 }
