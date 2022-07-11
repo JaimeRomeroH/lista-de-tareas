@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import TareaFormulario from "./TareaFormulario";
 import "../estilos/ListaDeTareas.css"
 
 function ListaDeTareas(){
+
+   const [tareas, setTareas] = useState([]);
+   
    return(
     <>
       <TareaFormulario />
