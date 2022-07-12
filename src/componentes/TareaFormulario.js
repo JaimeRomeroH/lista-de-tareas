@@ -18,6 +18,7 @@ function TareaFormulario(props){
         texto: input,
         completada: false
       }
+      props.onSubmit(tareaNueva);
    }
    return(
       <form className="tarea-formulario"
